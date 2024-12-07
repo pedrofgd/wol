@@ -1,1 +1,1 @@
-[{"name":"Me","birthday":"2001-06-25","maxAge":"80"},{"name":"Pai","birthday":"1973-02-23","maxAge":"80"},{"name":"Mãe","birthday":"1971-05-04","maxAge":"80"},{"name":"Boomer","birthday":"2016-04-07","maxAge":"15"}]
+[{"name":"Me","birthday":"2001-06-25","maxage":80},{"name":"Pai","birthday":"1973-02-23","maxage":80},{"name":"Mãe","birthday":"1971-05-04","maxage":80},{"name":"Boomer","birthday":"2016-04-07","maxage":15}]

@@ -1,37 +1,33 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WOL</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
-    <a id="soundtrack"
-        href="https://youtu.be/xwPnSS702Ow?si=_CLUir7s7fHSFNcL&t=64"
-        target="_blank">
+    <button id="import">
+        Import
+    </button>
+    <a id="soundtrack" href="https://youtu.be/xwPnSS702Ow?si=_CLUir7s7fHSFNcL&t=64" target="_blank">
         Playlist
     </a>
-
     <aside>
-        <div id="persons">
-            <!-- Javascript will add some items here -->
-        </div>
-
+        <div id="persons"></div>
         <div class="add-container">
-            <button onclick="addPerson()">add</button>
+            <button id="add" type="button">add</button>
         </div>
     </aside>
-    
+
     <h1>Weeks of life</h1>
     <div id="person-label"></div>
-    <div id="board">
-    </div>
+    <div id="warning"></div>
+    <div id="board"></div>
 
-    <div id="warning">
-    </div>
-
-    <div id="footer"></div>
-
-    <script src="script.js"></script>
+    <script type="module" src="/src/main.ts"></script>
 </body>
+
 </html>
